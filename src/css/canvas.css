@@ -1,0 +1,17 @@
+/**
+ * @copyright (C) 2014 Craig Phillips.  All rights reserved.
+ **/
+html, body, #canvas {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    cursor: none;
+}
+
+#canvas {
+    background-image: url(../images/space-wallpaper-1690.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

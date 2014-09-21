@@ -1,0 +1,15 @@
+/**
+ * Copyright (C) 2014 Craig Phillips.  All rights reserved.
+ **/
+
+.bullet {
+     position: absolute;
+     width: 40px;
+     height: 40px;
+     background-size: cover;
+     background-image: url(../images/bullet-01.png);
+}
+
+.bullet.fired {
+    transition: top 2s ease-in 0s;
+}

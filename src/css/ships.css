@@ -1,0 +1,19 @@
+/**
+ * Copyright (C) 2014 Craig Phillips.  All rights reserved.
+ **/
+
+.ship {
+    position: absolute;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    z-index: 100;
+    transition: transform 0.2s ease-in-out 0s,
+                left 0.1s ease-in-out 0s,
+                top 0.1s ease-in-out 0s;
+}
+
+.ship-01 {
+    background-image: url(../images/ship-01.png);
+}
