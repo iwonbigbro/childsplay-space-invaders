@@ -1,8 +1,10 @@
 /**
  * Copyright (C) 2014 Craig Phillips.  All rights reserved.
  **/
-
+/*global Mouse:false, $:false, document:false, setInterval:false, OneShip:false,
+         Gun:false, window:false */
 $(document).ready(function() {
+    'use strict';
 
     function Ship() {
         this.$ = $('<div class="ship ship-01"/>');

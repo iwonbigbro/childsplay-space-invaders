@@ -1,9 +1,13 @@
 /**
  * Copyright (C) 2014 Craig Phillips.  All rights reserved.
  **/
+/*global window: false, Bullet: false */
 (function () {
+    'use strict';
 
-    function Gun() {}
+    function Gun() {
+        return undefined;
+    }
 
     Gun.prototype = {
         constructor: Gun,
@@ -17,4 +21,4 @@
 
     window.Gun = Gun;
 
-})();
+}());

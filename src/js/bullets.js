@@ -1,8 +1,9 @@
 /**
  * Copyright (C) 2014 Craig Phillips.  All rights reserved.
  **/
-
+/*global $: false, Mouse: false, window: false */
 (function () {
+    'use strict';
 
     function Bullet() {
         this.armed = false;
@@ -43,4 +44,4 @@
 
     window.Bullet = Bullet;
 
-})();
+}());
